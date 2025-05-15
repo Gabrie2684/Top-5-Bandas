@@ -1,18 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Mapeamento de Imagens</h1>
-    <img src="../img/formas.png" alt="" 
-    usemap="#mapa">
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>mapeamento de imagem</title>
+        <link rel="stylesheet" href="../css/estilo.css">
+    </head>
+    <body>
+        <h1 class="fundovermelho central">fora do div</h1>
+        <p>parargafo fora</p>
+        <div id="cassio">
+            <h1>Dentro do div</h1>
+            <h2>Dentro do Div</h2>
+            <p>paragrafo 1 <span>dentro</span> da div</p>
+            <p class="fundovermelho">paragrafo 2</p>
+        </div>
 
-    <map name="mapa">
-        <area shape="" coords="" href="" alt="">
-    </map>
+        <div>
+            <h1>Dentro do div</h1>
+            <h2>Dentro do Div</h2>
+            <p>paragrafo 1</p>
+            <p class="fundovermelho">paragrafo 2</p>
+        </div>
 
-</body>
+        <header id="cabecalho">
+            <h1>Mapeamento de Imagens</h1>
+            <nav id="menup">
+                <ul>
+                    <li>Home</li>
+                    <li>Projetos</li>
+                    <li>Contatos</li>
+                </ul>
+            </nav>
+
+
+
+
+        </header>
+        <main>
+            <section id="noticia">
+                <article class="not">
+
+                </article>
+                <article class="not">
+
+                </article>
+            </section>
+            <section>
+                
+            </section>
+        
+            <img src="../img/formas.png" alt
+                usemap="#mapa">
+
+            <map name="mapa">
+                <area shape="circle" coords="46,116,22"
+                    href="https://www.todamateria.com.br/circunferencia/" alt>
+                <area shape="rect" coords="80,93,124,136"
+                    href="https://www.todamateria.com.br/quadrado/" alt>
+                <area shape="rect" coords="146,92,206,138"
+                    href="https://www.todamateria.com.br/retangulo/" alt>
+                <area shape="poly" coords="250,95,223,138,272,137"
+                    href="https://www.todamateria.com.br/triangulo/" alt>
+            </map>
+
+        </main>
+
+        <footer>
+
+        </footer>
+
+    </body>
 </html>

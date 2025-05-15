@@ -38,3 +38,29 @@ table {
   }
 
 
+p {
+  background-color: blue;
+  font-weight: bolder;
+}
+#cassio {
+  color: yellow;
+}
+#cassio p {
+  background-color: #04AA6D;
+}
+.fundovermelho {
+  background-color: red;
+}
+
+.central {
+  text-align: center;
+}
+
+
+
+
+/*caso queira mudar uma classe, colocamos um ponte e o nome da classe;
+  para mudar coisas dentro de um div por exemplo, colocamos div e o que queremos mudar:
+   div p(muda os paragrafo dentro dos divs
+  id é unico, class é grupo
+*/
